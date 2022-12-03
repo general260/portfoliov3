@@ -479,7 +479,7 @@ figure .overlay {
 }
 figure .overlay a {
   display: inline-block;
-  color: #000;
+  color: #fff;
   padding: 10px 23px;
   line-height: 1;
   border: 1px solid #fff;
@@ -490,6 +490,7 @@ figure .overlay a {
 }
 figure .overlay a:hover {
   text-decoration: none;
+  color: #000;
 }
 figure .overlay:hover a {
   transform: scale3d(1, 1, 1);
