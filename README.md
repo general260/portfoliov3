@@ -3,7 +3,7 @@
 A modern, responsive personal portfolio website showcasing projects, work experience, and professional expertise.
 
 ## 🌐 Live Site
-Visit the portfolio at: [basilobasi.com](https://basilobasi.com) or your deployed URL
+Visit the portfolio at: [basilobasi.xyz](https://basilobasi.xyz) or your deployed URL
 
 ## 📋 About
 
@@ -136,7 +136,6 @@ portfoliov3/
 
 - **LinkedIn**: [basil-obasi](https://www.linkedin.com/in/basil-obasi)
 - **GitHub**: [general260](https://github.com/general260/hug/blob/main/HUG.md)
-- **Email**: basilobasi@gmail.com
 
 ## 📄 License
 
