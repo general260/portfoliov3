@@ -47,8 +47,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index">
-                        <img src="../images/logo2.png" alt="logo">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./images/logo2.png" alt="logo">
                     </a>
                 </nav>
             </div>
@@ -58,38 +58,65 @@
 
 <!--
 ==================================================
-Slider Section Start
+Hero Section Start
 ================================================== -->
 <section id="hero-area">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="block wow fadeInUp" data-wow-delay=".3s">
-
-          <!-- Slider -->
-          <section class="cd-intro">
-            <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".3s">
-              <span>Basil is a</span><br>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="block wow fadeInLeft" data-wow-delay=".3s">
+          <h1 class="wow fadeInUp animated" data-wow-delay=".3s">
+            <span>I am Basil, </span><br>
+            <span class="cd-headline slide">
+              <span>a lead </span>
               <span class="cd-words-wrapper">
-                <b class="is-visible">PM</b>
-                <b>PSM</b>
-                <b>DESIGNER</b>
-                <b>DEVELOPER</b>
+                <b class="is-visible">Operations Director</b>
+                <b>Scrum Master</b>
+                <b>Product Designer</b>
+                <b>Software Developer</b>
+                <b>Product Manager</b>
+                <b>Writer</b>
               </span>
-            </h1>
-          </section>
-          <!-- /.slider -->
-          <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
-            I bring a diverse set of skills and experiences to the table, with a background that includes roles such as Web Developer, Customer Care Representative, Technical Product Manager, and I.T Champion. My portfolio showcases some of the projects I have worked on over the past 5+ years in these roles.
-          </h2>
-          <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green"
-            data-wow-delay=".9s" href="work">Workstation</a>
+            </span>
+          </h1>
+          <p class="wow fadeInUp animated subtitle-des" data-wow-delay=".6s">
+            I lead the delivery of innovative digital solutions by blending product strategy, technical expertise, and process design thinking. With over half a decade of experience across product, software development, and operations management, I strive for operational excellence.
+          </p>
+          <a class="btn btn-default btn-sm wow fadeInUp animated"
+            data-wow-delay=".9s" href="work.html">Work</a>
+          <a class="btn btn-default btn-sm wow fadeInUp animated"
+            data-wow-delay="1s" href="resume/Resume%20-%20Basil%20Obasi.pdf" target="_blank" rel="noopener" style="margin-left: 10px;">Resume</a>
+          <a class="btn btn-default btn-sm wow fadeInUp animated" id="contactBtn"
+            data-wow-delay="1.1s" href="javascript:void(0);" style="margin-left: 10px; background: transparent; border: 2px solid #FB3D3A; color: #333; cursor: pointer;">Contact Me</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="wow fadeInRight" data-wow-delay=".3s">
+          <img src="images/about/about.png" alt="Basil's Profile" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--/#main-slider-->
+<!--/#hero-area-->
+
+<!-- Contact Modal -->
+<div id="contactModal" class="contact-modal">
+  <div class="contact-modal-content">
+    <span class="contact-modal-close">&times;</span>
+    <h2>Get In Touch</h2>
+    <div class="contact-methods">
+      <a href="https://www.linkedin.com/in/basil-obasi" target="_blank" rel="noopener" class="contact-method">
+        <i class="ion-social-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      <a href="mailto:basilobasic@gmail.com" class="contact-method">
+        <i class="ion-email"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </div>
+</div>
 
 <!--
 ==================================================
@@ -97,26 +124,42 @@ About Section Start
 ================================================== -->
 <section id="about">
   <div class="container">
+    <div class="section-heading">
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Bio</h1>
+    </div>
     <div class="row">
-      <div class="col-md-6 col-sm-6">
+      <div class="col-md-6 col-12">
         <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-          <h2>
-            ABOUT ME
-          </h2>
           <p>
-            I am a professional scrum master working in the technology sector, with interests in Product Management, Startups, Artificial Intelligence, Agriculture, Cyber Security, and Engineering.
+            I currently work in the technology sector, driving change and exponential progress 
+            within the operations department of a $200 million company. 
+            <br><br>My interests are Operations Management, Product Management, Startups, Artificial Intelligence, 
+            Agriculture, Hardware Engineering, Cyber Security, and Software Engineering.
           </p>
           <p>  
-            A life-long learner experienced in customer and user research, product discovery, data and market analysis, backlog refinement, team management, process improvements, technical presentations, program delivery, operations management, system implementations, and value optimization.
+            A life-long learner experienced in customer and user research, system enhancement, 
+            product discovery, data and market analysis, 
+            backlog refinement, team management, process improvements, technical presentations, 
+            program delivery, operations management, system implementations, and value optimization.<br><br>
+            At the moment, I lead a team of 60+ cross functional team members to deliver high-impact 
+            projects that enhance operational efficiency and positively impact the bottom line.<br><br>
+            I manage hardware inventory of over $20 million, oversee vendor relationships, 
+            and implement logistics improvements that drive cost savings and excellence.
           </p>
+          <!-- <ul style="margin-top: 20px;">
+            <li style="list-style: none; margin-bottom: 10px;"><i class="ion-checkmark-round" style="color: #FB3D3A; margin-right: 10px;"></i>Product Management & Strategy</li>
+            <li style="list-style: none; margin-bottom: 10px;"><i class="ion-checkmark-round" style="color: #FB3D3A; margin-right: 10px;"></i>Scrum/Agile Leadership</li>
+            <li style="list-style: none; margin-bottom: 10px;"><i class="ion-checkmark-round" style="color: #FB3D3A; margin-right: 10px;"></i>Full-Stack Development</li>
+            <li style="list-style: none; margin-bottom: 10px;"><i class="ion-checkmark-round" style="color: #FB3D3A; margin-right: 10px;"></i>UX/UI Design Principles</li>
+          </ul> -->
         </div>
-
       </div>
-      <div class="col-md-6 col-sm-6">
+      <div class="col-md-6 col-12">
         <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-          <img src="images/about/about.jpg" alt="A picture of an Apple keyboard, a Mac computer, an iPad and a mouse.">
+          <a href="resume/Resume%20-%20Basil%20Obasi.pdf" target="_blank" rel="noopener" style="display: inline-block; cursor: pointer;">
+            <img src="images/about/Resume - B.O.png" alt="Resume" style="width: 100%; max-width: 100%; height: auto; border: 3px solid #FB3D3A; border-radius: 8px; margin-top: 20px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          </a>
         </div>
-      </div>
     </div>
   </div>
 </section> <!-- /#about -->
@@ -130,188 +173,119 @@ Work Section Start
   <div class="container">
     <div class="section-heading">
       <h1 class="title wow fadeInDown" data-wow-delay=".3s">Work</h1>
-      <p class="wow fadeInDown" data-wow-delay=".5s">
-        Brilliantly handling projects from concise conceptualization to post launch maintenance and iterations.
-      </p>
     </div>
     <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+      <div class="col-md-4 col-12">
+        <figure class="wow fadeInUp animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-16.PNG" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/item-1.png" class="img-fluid" alt="Portfolio">
             <div class="overlay">
               <div class="buttons">
-                <a href="https://www.keepandshare.com/doc12/257536/product-study-for-incognito-blog-by-basil-obasi-pdf-369k?dn=y&dnad=y" target="_blank" rel="noopener">Read More</a>
+                <a href="https://general260.github.io/portfolio/" target="_blank" rel="noopener">Visit Website</a>
               </div>
             </div>
           </div>
           <figcaption>
-            <h4>
-                Product Study for Incognito 
-            </h4>
-            <p>
-              Product management
-            </p>
+            <h4>Portfolio</h4>
+            <p>Simple and responsive portfolio website</p>
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+      <div class="col-md-4 col-12">
+        <figure class="wow fadeInUp animated portfolio-item" data-wow-duration="500ms" data-wow-delay="100ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-13.PNG" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/item-2.png" class="img-fluid" alt="Interior Design">
             <div class="overlay">
               <div class="buttons">
-                <a href="https://www.keepandshare.com/doc12/255919/case-study-for-linkedin-by-basil-obasi-pdf-923k?da=y" target="_blank" rel="noopener">Read More</a>
+                <a href="https://www.whiteauradesigns.com" target="_blank" rel="noopener">Visit Website</a>
               </div>
             </div>
           </div>
           <figcaption>
-            <h4>
-                Case Study for LinkedIn 
-            </h4>
-            <p>
-              Product discovery and development
-            </p>
+            <h4>Interior Design</h4>
+            <p>Brilliant showcase website</p>
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+      <div class="col-md-4 col-12">
+        <figure class="wow fadeInUp animated portfolio-item" data-wow-duration="500ms" data-wow-delay="200ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-13.PNG" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/item-3.png" class="img-fluid" alt="Tech Consulting">
             <div class="overlay">
               <div class="buttons">
-                <a href="https://www.keepandshare.com/doc12/255858/case-study-for-any-do-by-basil-obasi-pdf-383k?da=y" target="_blank" rel="noopener">Read More</a>
+                <a href="https://www.hubrisconsult.com" target="_blank" rel="noopener">Visit Website</a>
               </div>
             </div>
           </div>
           <figcaption>
-            <h4>
-                Case Study for Any.do 
-            </h4>
-            <p>
-              Feature implementation experiment
-            </p>
+            <h4>Tech Consulting</h4>
+            <p>Elegant creative agency website</p>
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+      <div class="col-md-4 col-12">
+        <figure class="wow fadeInUp animated portfolio-item" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-15.PNG" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/item-8.png" class="img-fluid" alt="Landing Page">
             <div class="overlay">
               <div class="buttons">
-                <a href="https://www.keepandshare.com/doc12/256770/case-study-for-saasafras-by-basil-obasi-pdf-996k?da=y" target="_blank" rel="noopener">Read More</a>
+                <a href="https://slimecredit.netlify.app/" target="_blank" rel="noopener">Visit Website</a>
               </div>
             </div>
           </div>
           <figcaption>
-            <h4>
-                Case Study for SaaSafras 
-            </h4>
-            <p>
-              Run Rate Operational Strategy
-            </p>
+            <h4>Landing Page</h4>
+            <p>MVP experiment website</p>
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+      <div class="col-md-4 col-12">
+        <figure class="wow fadeInUp animated portfolio-item" data-wow-duration="500ms" data-wow-delay="400ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-9.png" class="img-fluid" alt="this is a title">
+            <img src="images/portfolio/item-17.PNG" class="img-fluid" alt="Operations Article I">
             <div class="overlay">
               <div class="buttons">
-                <a href="https://docs.google.com/presentation/d/1MREoVSSEpknYq-J39QZXX6GD7AdwmaRwxVBSM5HvjbA/edit#slide=id.g62a7771621_0_24" target="_blank" rel="noopener">Read More</a>
+                <a href="https://medium.com/@basil-o/slow-is-smooth-smooth-is-fast-154f18b66267" target="_blank" rel="noopener">View More</a>
               </div>
             </div>
           </div>
           <figcaption>
-            <h4>
-              LL Sprint Backlog
-            </h4>
-            <p>
-              User story prioritization 
-            </p>
+            <h4>Operations Article I</h4>
+            <p>Moving slow to fast in operations</p>
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
+      <div class="col-md-4 col-12">
+        <figure class="wow fadeInUp animated portfolio-item" data-wow-duration="500ms" data-wow-delay="500ms">
           <div class="img-wrapper">
-            <img src="images/portfolio/item-4.png" class="img-fluid" alt="">
+            <img src="images/portfolio/item-18.PNG" class="img-fluid" alt="Operations Article II">
             <div class="overlay">
               <div class="buttons">
-                <a href="https://docs.google.com/document/d/1q9PephaNDnxh-cJpydGSKXbRYzmFiaro2o4ktAWygDI/edit" target="_blank" rel="noopener">Read more</a>
+                <a href="https://medium.com/@basil-o/managing-operations-at-a-unicorn-4ab64447ee69" target="_blank" rel="noopener">View More</a>
               </div>
             </div>
           </div>
           <figcaption>
-            <h4>
-                LL PRD
-            </h4>
-            <p>
-              Detailed fluid PRD
-            </p>
+            <h4>Operations Article II</h4>
+            <p>Operations Management Lessons</p>
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
-          <div class="img-wrapper">
-            <img src="images/portfolio/item-5.png" class="img-fluid" alt="">
-            <div class="overlay">
-              <div class="buttons">
-                <a href="https://docs.google.com/presentation/d/1qisxNU5OsWZwrDbf9m7fAoEHTiTix3FuOnm_rhq40iE/edit#slide=id.g57515110cb_1_42" target="_blank" rel="noopener">Read more</a>
-              </div>
-            </div>
-          </div>
-          <figcaption>
-            <h4>
-              LL Product Vision
-            </h4>
-            <p>
-              Qualitative market analysis
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-          <div class="img-wrapper">
-            <img src="images/portfolio/item-7.png" class="img-fluid" alt="this is a title">
-            <div class="overlay">
-              <div class="buttons">
-                <a href="https://docs.google.com/presentation/d/1QYfXqd3O458DHwucgLooEwPf4tUXRViFVS3kMYL9vzY/edit#slide=id.p1" target="_blank" rel="noopener">Read More</a>
-              </div>
-            </div>
-          </div>
-          <figcaption>
-            <h4>
-                LL Design Sprint
-            </h4>
-            <p>
-              Sprint focus and prototyping
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-      
-  </div>
-  </div>
+    </div>
   </div>
   </section> 
     <!--
     ==================================================
-    More Work Section
+    Call to Action Section
     ================================================== -->
     <section id="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Still Here ?</h1>
-                        <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">I underestimated the effect of a minimal yet functionally crafted User Interface.<br>Click below for more work samples.</p>
-                        <a href="work" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">More Work</a>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">Always Innovating</h2>
+                        <a href="work.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">More Work</a>
+                        <a href="javascript:void(0);" onclick="document.getElementById('contactModal').style.display='block'; return false;" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".8s" data-wow-duration="500ms" style="margin-left: 10px; background: transparent; border: 2px solid #fff; color: #fff; cursor: pointer;">Get In Touch</a>
                     </div>
                 </div>
             </div>
@@ -324,20 +298,21 @@ Work Section Start
     <footer id="footer">
         <div class="container">
             <div class="row content-justify-between">
-                <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
-                    <p class="copyright">Developed and Designed with <a href="#">Love</a> by Basil<br> 
+                <div class="col-md-8 col-6 text-center text-lg-left text-md-left">
+                    <p class="copyright">
+                        © <script>document.write(new Date().getFullYear())</script> Basil.
                     </p>
                 </div>
-                <div class="col-md-4 col-12">
-                    <!-- Social -->
+                <div class="col-md-4 col-6">
+                    <!-- Social Links -->
                     <ul class="social text-center text-md-right text-lg-right">
                         <li>
-                            <a href="https://www.linkedin.com/in/basil-obasi" target="_blank" rel="noopener" class="Linkedin">
+                            <a href="https://www.linkedin.com/in/basil-obasi" target="_blank" rel="noopener" class="Linkedin" title="LinkedIn">
                                 <i class="ion-social-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/general260/hug/blob/main/HUG.md" target="_blank" rel="noopener" class="Linkedin">
+                            <a href="https://github.com/general260/hug/blob/main/HUG.md" target="_blank" rel="noopener" class="Github" title="GitHub">
                                 <i class="ion-social-github"></i>
                             </a>
                         </li>
@@ -366,5 +341,37 @@ Work Section Start
 	<script src="plugins/facncybox/jquery.fancybox.js"></script>
 	<!-- template main js -->
 	<script src="js/main.js"></script>
+	
+	<!-- Contact Modal Script -->
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var contactBtn = document.getElementById('contactBtn');
+		var contactModal = document.getElementById('contactModal');
+		var closeBtn = document.querySelector('.contact-modal-close');
+		
+		if (contactBtn) {
+			contactBtn.addEventListener('click', function(e) {
+				e.preventDefault();
+				if (contactModal) {
+					contactModal.style.display = 'block';
+				}
+			});
+		}
+		
+		if (closeBtn) {
+			closeBtn.addEventListener('click', function() {
+				if (contactModal) {
+					contactModal.style.display = 'none';
+				}
+			});
+		}
+		
+		window.addEventListener('click', function(e) {
+			if (e.target == contactModal) {
+				contactModal.style.display = 'none';
+			}
+		});
+	});
+	</script>
  	</body>
 </html>
