@@ -1248,12 +1248,11 @@ ul.social-icons li {
   }
   
   #hero-area .btn {
-    padding: 10px 20px;
+    padding: 10px 16px;
     font-size: 11px;
-    margin-right: 5px !important;
-    display: block;
-    width: 100%;
-    margin-bottom: 10px !important;
+    margin-right: 8px !important;
+    margin-bottom: 0 !important;
+    display: inline-block;
     text-align: center;
   }
 }
