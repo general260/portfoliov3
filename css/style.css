@@ -1428,3 +1428,46 @@ ul.social-icons li {
     font-size: 12px;
   }
 }
+
+/* Filter Buttons Styles */
+.filter-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 2px solid #FB3D3A;
+  color: #333;
+  padding: 12px 28px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.filter-btn:hover {
+  background: #FB3D3A;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background: #FB3D3A;
+  color: #fff;
+  border-color: #FB3D3A;
+}
+
+.portfolio-item {
+  transition: all 0.3s ease;
+}
+
+.portfolio-item.hidden {
+  display: none;
+}
